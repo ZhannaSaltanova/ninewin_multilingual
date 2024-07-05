@@ -175,6 +175,7 @@ p {
 }
 .toggle {
     border-radius: 10px;
+    height: 34px;
     background-color: inherit;
     border: none;
     color:var(--color-light);
@@ -259,6 +260,13 @@ p {
     .header__buttons {
         width: 100%;
         justify-content: flex-end;
+    }
+    .header__left {
+        padding: 0;
+    }
+    .lang {
+        width: 20px;
+        height: 20px;
     }
 }
 @media screen and (max-width: 500px){
