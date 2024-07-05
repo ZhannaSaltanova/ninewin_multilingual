@@ -2,12 +2,13 @@
 [[COLOR3]] #1DD063;
 [[COLOR1]]#060E2A; */
 
+
 :root {
     --font-family: 'Montserrat',  sans-serif;
-    --color-light: #ffffff;
-    --bg-dark:#060E2A ;
-    --current-color:#ffffff;
-    --color-accent: #1DD063;
+    --color-light:#34363E;
+    --bg-dark:#ffffff;
+    --current-color:#34363E;
+    --color-accent:#c4322d;
   }
 body {
     font-family: var(--font-family);
@@ -157,13 +158,13 @@ p {
     width: 100%;
     height: auto;
     background-color:var(--bg-dark);
-    border: 1px solid var(--color-light);
-    filter: brightness(140%);
+    border-radius: 20px;
+    border: 2px solid var(--color-light);
+    /* filter: brightness(140%); */
     position: absolute;
     top:70px;
     right: 15px;
     display: none;
-    border-radius: 5px;
 
     
 }
