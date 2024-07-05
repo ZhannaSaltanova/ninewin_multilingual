@@ -32,3 +32,14 @@ window.addEventListener('resize', function() {
         menu.style.display = "flex";
     }
 });
+
+let toggleButton = document.querySelector('.toggle');
+let langItems = document.querySelector('.lang-items');
+
+toggleButton.addEventListener('click', function () {
+    if (langItems.style.display === 'none' || langItems.style.display === '') {
+        langItems.style.display = 'block';
+    } else {
+        langItems.style.display = 'none';
+    }
+});
